@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kanban Board</title>
+	<link rel="stylesheet" href="../Kanban/css/kanban.css">
+</head>
+<body>
+	<div id="p1" class="mdl-progress mdl-js-progress"></div>
+	<script>
+	  document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+		this.MaterialProgress.setProgress(44);
+	  });
+	</script><div class="kanban__title">
+		  <h1>Kanban</h1></div>
+	<div class="lists">
+	  <ol class="kanban Backlog">
+		<div class="kanban__title">
+		  <h2>Backlog</h2></div>
+	    <li class="items" data-id="1">
+		  <h3 class="title name" contenteditable="true">Twilio integration</h3>
+			<div class="text" contenteditable="true"> 
+		</li>
+		<li class="items" data-id="2">
+		  <h3 class="title name" contenteditable="true">Markdown support</h3>
+			<div class="text" contenteditable="true">
+
+			</div>
+		</li>
+	  </ol>
+	  <ol class="kanban To-do">
+		<h2>To do</h2>
+			<li class="items" data-id="3">
+			<h3 class="title3 name3" contenteditable="true">Tablet view</h3>
+		  </li>
+		  <li class="items" data-id="4">
+		  <h3 class="title name" contenteditable="true">Audio recording in note</h3>
+			<div class="text" contenteditable="true">
+
+			</div>
+		</li>
+		<li class="items" data-id="5">
+			<h3 class="title name" contenteditable="true">Bookmark in note</h3>
+			  <div class="text" contenteditable="true">
+  
+			  </div>
+		  </li>
+		<li class="items" data-id="6">
+		  <h3 class="title name" contenteditable="true">Image viewer</h3>
+			<div class="text" contenteditable="true">
+
+			</div>
+		</li>
+	  </ol>
+	  <ol class="kanban In-progress">
+		<h2>In progress</h2>
+		  <li class="items" data-id="7">
+		  <h3 class="title name" contenteditable="true">Mobile view</h3>
+			<div class="text" contenteditable="true">
+
+			</div> 
+		</li>
+		<li class="items" data-id="8">
+		  <h3 class="title name" contenteditable="true">Desktop view</h3>
+			<div class="text" contenteditable="true">
+		</li>
+
+		<li class="items" data-id="9">
+		  <h3 class="title name" contenteditable="true">Formatting options</h3>
+			<div class="text" contenteditable="true">
+		</li>
+		<li class="items" data-id="10">
+			<h3 class="title name" contenteditable="true">Media in note</h3>
+			  <div class="text" contenteditable="true">
+		  </li>
+	  </ol>
+	  <ol class="kanban Designed">
+		<h2>Designed</h2>
+		 <li class="items" data-id="11">
+		  <h3 class="title name" contenteditable="true">Audio recording</h3>
+			<div class="text" contenteditable="true">
+
+			</div>
+		</li>
+		<li class="items" data-id="12">
+		  <h3 class="title name" contenteditable="true">Bookmarking</h3>
+			<div class="text" contenteditable="true">
+		</li>
+		<li class="items" data-id="13">
+		  <h3 class="title name" contenteditable="true">Mobile home screen</h3>
+			<div class="text" contenteditable="true">
+		</li>
+	  </ol>
+	
+	</div>
+</body>
+</html>
