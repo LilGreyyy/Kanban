@@ -2,7 +2,7 @@ Body {
     font-family: Sans-serif;
     font-size: 14;
     width: 100;
-    background-color: #E0E0E0;
+    background-color: #d2cdcd;
   }
   
   h1 {
@@ -16,7 +16,6 @@ Body {
     top: 85px;
     margin: 0 auto;
     display: block;
-    vertical-align: top;
   }
   
   ol {
@@ -30,11 +29,7 @@ Body {
   }
   
   h2 {
-    color: #93999ebe;
-  }
-  
-  h2 {
-    color: #B0BEC5;
+    color: #cfd6d9;
     line-height: 0.2;
   }
   
@@ -47,24 +42,6 @@ Body {
     right: 0;
     color: #515759;
     padding: 5px 8px;
-  }
-
-  .name3 {
-    color: rgb(176, 190, 197);
-    font-size: 14px;
-    font-weight: 780;
-    line-height: 1px;
-    position: relative;
-    right: 0;
-    color: #607D8B;
-    padding: 3px 5px; 
-  }
-  
-  .items:hover {
-    color: #404444;
-    will-change: box-shadow;
-    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
-    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, .14), 0 3px 1px -6px rgba(0, 0, 0, .2), 2px 5px 3px 0 rgba(0, 0, 0, .12);
   }
   
   ol.kanban {
@@ -80,9 +57,9 @@ Body {
     min-height: 180px;
     z-index: 1;
     position: relative;
-    background: rgb(96, 100, 101);
+    background: rgb(42, 42, 42);
     padding: 1em;
-    border-radius: 2px;
+    border-radius: 17px;
   }
   
   .items {
@@ -100,7 +77,7 @@ Body {
     overflow: hidden;
     z-index: 1;
     position: relative;
-    background: rgb(58, 60, 60);
+    background: rgb(51, 51, 51);
     border-radius: 2px;
     box-sizing: border-box;
   }
@@ -138,8 +115,6 @@ Body {
   }
   
   .text {
-    color: grey;
-    border-top: 1px solid;
     font-size: 1rem;
     font-weight: 400;
     line-height: 18px;
@@ -159,11 +134,71 @@ Body {
     display: block;
     margin: 5px 0;
     padding: 5px 10px;
-    color: #333;
+    color: rgb(201, 201, 201);
     text-decoration: none;
     font-weight: bold;
-    border: 1px solid #ccc;
-    background: #fafafa;
+    border: 1px solid rgb(0, 0, 0);
+    background: #b84da1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  .items2 {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    background: #7a67b8;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  .items3 {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    background: #c33232;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  .items4 {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    background: #2b6cb1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  .items5 {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    background: #198e6e;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     box-sizing: border-box;
@@ -171,5 +206,21 @@ Body {
   }
   
   .items:hover {
-    background: rgb(228, 232, 233);
+    background: #c654ad;
+  }
+
+  .items2:hover {
+    background: #8873cd
+  }
+
+  .items3:hover {
+    background: #d43636;
+  }
+
+  .items4:hover {
+    background: #2e75c1;
+  }
+
+  .items5:hover {
+    background: #1da581;
   }
