@@ -6,89 +6,97 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kanban Board</title>
 	<link rel="stylesheet" href="../Kanban/css/kanban.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="kanban__title">
-		  <h1>Kanban</h1></div>
+		  <h1>Kanban</h1>
+	</div>
 	<div class="lists">
-	  <ol class="kanban Backlog">
+	  <div class="kanban Backlog">
 		<div class="kanban__title">
-		  <h2>Backlog</h2></div>
-	    <li class="items" data-id="1">
+		  <h2>Backlog</h2>
+		</div>
+	    <div class="items" data-id="1">
 		  <h3 class="title name" contenteditable="true">Twilio integration</h3>
 			<div class="text" contenteditable="true"> 
-		</li>
-		<li class="items2" data-id="2">
+		</div>
+		</div>
+		<div class="items purple" data-id="2">
 		  <h3 class="title name" contenteditable="true">Markdown support</h3>
 			<div class="text" contenteditable="true">
 
 			</div>
-		</li>
-	  </ol>
-	  <ol class="kanban To-do">
+		</div>
+	  </div>
+	  <div class="kanban To-do">
 		<h2>To do</h2>
-			<li class="items3" data-id="3">
+			<div class="items red" data-id="3">
 			<h3 class="title3 name" contenteditable="true">Tablet view</h3>
-		  </li>
-		  <li class="items2" data-id="4">
+		  </div>
+		  <div class="items purple" data-id="4">
 		  <h3 class="title name" contenteditable="true">Audio recording in note</h3>
 			<div class="text" contenteditable="true">
 
 			</div>
-		</li>
-		<li class="items2" data-id="5">
+		</div>
+		<div class="items purple" data-id="5">
 			<h3 class="title name" contenteditable="true">Bookmark in note</h3>
 			  <div class="text" contenteditable="true">
   
 			  </div>
-		  </li>
-		<li class="items2" data-id="6">
+		  </div>
+		<div class="items purple" data-id="6">
 		  <h3 class="title name" contenteditable="true">Image viewer</h3>
 			<div class="text" contenteditable="true">
 
 			</div>
-		</li>
-	  </ol>
-	  <ol class="kanban In-progress">
+		</div>
+	  </div>
+	  <div class="kanban In-progress">
 		<h2>In progress</h2>
-		  <li class="items3" data-id="7">
-		  <h3 class="title name" contenteditable="true">Mobile view</h3>
+		<div class="items red" data-id="7">
+		<h3 class="title name" contenteditable="true">Mobile view</h3>
 			<div class="text" contenteditable="true">
-
 			</div> 
-		</li>
-		<li class="items3" data-id="8">
+		</div>
+		<div class="items red" data-id="8">
 		  <h3 class="title name" contenteditable="true">Desktop view</h3>
 			<div class="text" contenteditable="true">
-		</li>
+			</div>
+		</div>
 
-		<li class="items4" data-id="9">
+		<div class="items blue" data-id="9">
 		  <h3 class="title name" contenteditable="true">Formatting options</h3>
 			<div class="text" contenteditable="true">
-		</li>
-		<li class="items2" data-id="10">
+			</div>
+		</div>
+		<div class="items purple" data-id="10">
 			<h3 class="title name" contenteditable="true">Media in note</h3>
 			  <div class="text" contenteditable="true">
-		  </li>
-	  </ol>
-	  <ol class="kanban Designed">
+			  </div>
+		  </div>
+	  </div>
+	  <div class="kanban Designed">
 		<h2>Designed</h2>
-		 <li class="items5" data-id="11">
+		 <div class="items green" data-id="11">
 		  <h3 class="title name" contenteditable="true">Audio recording</h3>
 			<div class="text" contenteditable="true">
-
 			</div>
-		</li>
-		<li class="items5" data-id="12">
+		</div>
+		<div class="items green" data-id="12">
 		  <h3 class="title name" contenteditable="true">Bookmarking</h3>
 			<div class="text" contenteditable="true">
-		</li>
-		<li class="items4" data-id="13">
+		</div>
+		</div>
+		<div class="items blue" data-id="13">
 		  <h3 class="title name" contenteditable="true">Mobile home screen</h3>
 			<div class="text" contenteditable="true">
-		</li>
-	  </ol>
-	
+		</div>
+	  	</div>
+	</div>
 	</div>
 </body>
 </html>

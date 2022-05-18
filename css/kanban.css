@@ -1,14 +1,15 @@
-Body {
-    font-family: Sans-serif;
+body {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14;
     width: 100;
-    background-color: #d2cdcd;
+    background-color: #000000;
   }
   
   h1 {
     position: absolute;
     left: 16px;
     top: 16px;
+    color: #cfd6d9;
   }
   
   .lists {
@@ -18,14 +19,10 @@ Body {
     display: block;
   }
   
-  ol {
-    transition: border-color 2s ease, all 0.1s ease;
-  }
-  
   H2,
   h1 {
     margin-left: 3px;
-    font-family: 'Arbutus Slab', serif;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
   h2 {
@@ -44,7 +41,7 @@ Body {
     padding: 5px 8px;
   }
   
-  ol.kanban {
+  .kanban {
     width: 20%;
     height: auto;
     margin: 1%;
@@ -57,7 +54,7 @@ Body {
     min-height: 180px;
     z-index: 1;
     position: relative;
-    background: rgb(42, 42, 42);
+    background: rgb(28, 28, 28);
     padding: 1em;
     border-radius: 17px;
   }
@@ -66,7 +63,7 @@ Body {
     display: block;
     position: relative;
     list-style: none;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     min-height: 48px;
     display: flex;
     -webkit-flex-direction: column;
@@ -145,7 +142,7 @@ Body {
     -moz-box-sizing: border-box;
   }
 
-  .items2 {
+  .items.purple {
     display: block;
     margin: 5px 0;
     padding: 5px 10px;
@@ -160,7 +157,7 @@ Body {
     -moz-box-sizing: border-box;
   }
 
-  .items3 {
+  .items.red {
     display: block;
     margin: 5px 0;
     padding: 5px 10px;
@@ -175,7 +172,7 @@ Body {
     -moz-box-sizing: border-box;
   }
 
-  .items4 {
+  .items.blue {
     display: block;
     margin: 5px 0;
     padding: 5px 10px;
@@ -190,7 +187,7 @@ Body {
     -moz-box-sizing: border-box;
   }
 
-  .items5 {
+  .items.green {
     display: block;
     margin: 5px 0;
     padding: 5px 10px;
@@ -209,18 +206,18 @@ Body {
     background: #c654ad;
   }
 
-  .items2:hover {
+  .items.purple:hover {
     background: #8873cd
   }
 
-  .items3:hover {
+  .items.red:hover {
     background: #d43636;
   }
 
-  .items4:hover {
+  .items.blue:hover {
     background: #2e75c1;
   }
 
-  .items5:hover {
+  .items.green:hover {
     background: #1da581;
   }
